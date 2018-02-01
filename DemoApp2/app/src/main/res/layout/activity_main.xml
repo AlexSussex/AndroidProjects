@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbarAlwaysDrawVerticalTrack="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="@string/copyright_text_view" style="@style/copyrightStyle"/>
+        </LinearLayout>
+
+        <!--Cell Location -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="@string/cell_location_text_view" style="@style/textStyleLeft"/>
+            <TextView android:id="@+id/cell_location_value" style="@style/textStyleRight"/>
+        </LinearLayout>
+
+        <!--Signal Strength-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="@string/signal_strength_text_view" style="@style/textStyleLeft"/>
+            <TextView android:id="@+id/signal_strength_value" style="@style/textStyleRight"/>
+        </LinearLayout>
+
+        <!--Service State-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:text="@string/service_state_text_view" style="@style/textStyleLeft"/>
+            <TextView android:id="@+id/service_state_value" style="@style/textStyleRight"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

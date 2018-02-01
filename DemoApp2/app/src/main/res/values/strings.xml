@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="service_state_text_view">Service State : </string>
+    <string name="cell_location_text_view">Cell Location : </string>
+    <string name="signal_strength_text_view">Signal Strength : </string>
+    <string name="copyright_text_view">Made by Alex Patriche</string>
+</resources>
